@@ -11,7 +11,6 @@
 
 import React, {Component} from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View,
@@ -36,7 +35,7 @@ export default class AwesomeProject extends Component {
     };
     return (<View style={styles.container}>
       <Text style={styles.welcome}>
-        Welcome to React Native!
+        Welcome to solve conflict!
       </Text>
       <TextInput style={styles.textInput} placeholder='Type here to translate!' onChangeText={(text) => this.setState({text})}/>
       <Text>{this.state.text.split(' ').map((word) => word + '*').join(' ')}</Text>
@@ -45,7 +44,7 @@ export default class AwesomeProject extends Component {
         <Image source={pic} style={styles.picture}/>
         <Image source={pic} style={styles.picture}/>
         <Image source={pic} style={styles.picture}/>
-        <Text>This is line two</Text>
+        <Text>modified by huopanpan</Text>
         <Image source={pic} style={styles.picture}/>
         <Image source={pic} style={styles.picture}/>
       </ScrollView>
