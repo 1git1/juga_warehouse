@@ -25,7 +25,7 @@ export default class AwesomeProject extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      text: '彭 晓 佳'
+      text: 'hpp'
 
     }
   }
@@ -35,7 +35,7 @@ export default class AwesomeProject extends Component {
     };
     return (<View style={styles.container}>
       <Text style={styles.welcome}>
-        Welcome to React Native!
+        Welcome to solve conflict!
       </Text>
       <TextInput style={styles.textInput} placeholder='Type here to translate!' onChangeText={(text) => this.setState({text})}/>
       <Text>{this.state.text.split(' ').map((word) => word + '*').join(' ')}</Text>
