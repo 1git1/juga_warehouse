@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     margin: 10
   },
   textInput: {
-    height: 50,
+    height: 60,
     backgroundColor: '#ece8e0'
   },
   picture: {
