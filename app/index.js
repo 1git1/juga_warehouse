@@ -11,7 +11,6 @@
 
 import React, {Component} from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View,
@@ -45,7 +44,7 @@ export default class AwesomeProject extends Component {
         <Image source={pic} style={styles.picture}/>
         <Image source={pic} style={styles.picture}/>
         <Image source={pic} style={styles.picture}/>
-        <Text>This is line two</Text>
+        <Text>modified by huopanpan</Text>
         <Image source={pic} style={styles.picture}/>
         <Image source={pic} style={styles.picture}/>
       </ScrollView>
