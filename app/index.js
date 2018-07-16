@@ -26,7 +26,7 @@ export default class AwesomeProject extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      text: '567'
+      text: '彭 晓 佳'
 
     }
   }
